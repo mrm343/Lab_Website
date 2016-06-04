@@ -1,0 +1,340 @@
+html {
+	background-color: #fef7e7;
+	overflow:scroll;
+}
+body {
+	overflow: hidden;
+	margin-top: 0px;
+	display: inline;
+
+
+}
+.banner {
+	background-image: url("../images/Gates.gif");
+    height: 330px;
+    margin-top: -20px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+
+
+}
+.title {
+	padding-top: 100px;
+	font-size: 45px;
+	font-family: 'Raleway', sans-serif;
+
+}
+.subtitle {
+	color: #09255C;
+	text-align: center;
+	font-size: 28px;
+	margin-bottom: 40px;
+	margin-top: 30px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+.subtitle2 {
+	color: #dc9d09;
+	font-size: 20px;
+	margin-bottom: 15px;
+	font-family: 'Raleway', sans-serif;
+	margin-left: 5%;
+}
+.subtitle3, #incorrectLogin {
+	color: #09255C;
+	font-size: 17px;
+	margin-bottom: 15px;
+	font-family: 'Raleway', sans-serif;
+	margin-left: 5%;
+}
+.subtitle4 {
+	color: #09255C;
+	font-size: 23px;
+	margin-bottom: 15px;
+	font-family: 'Raleway', sans-serif;
+	margin-left: 5%;
+
+}
+
+.subtitle5 {
+	color: #09255C;
+	font-size: 15px;
+	margin-bottom: 15px;
+	font-family: 'Raleway', sans-serif;
+	margin-left: 5%;
+}
+
+.subtitle6 {
+	color: #dc9d09;
+	font-size: 18px;
+	margin-bottom: 15px;
+	font-family: 'Raleway', sans-serif;
+	margin-left: 5%;
+	padding-top: 0;
+}
+
+.form_subtitle1 {
+	color: #dc9d09;
+	font-size: 20px;
+	margin-bottom: 15px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.form_subtitle2 {
+	color: #09255C;
+	font-size: 17px;
+	margin-bottom: 15px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.form_subtitle3 {
+	color: #09255C;
+	font-size: 17px;
+	margin-bottom: 15px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	margin-left: 0;
+}
+
+.content {
+	color: #09255C;
+	font-size: 16px;
+	margin-bottom: 30px;
+	font-family: 'Roboto', sans-serif;
+	padding-left: 5%;
+	margin-right: 5%;
+}
+
+.research_team_content {
+	color: #09255C;
+	font-size: 16px;
+	margin-bottom: 10px;
+	font-family: 'Roboto', sans-serif;
+	padding-left: 5%;
+	margin-right: 5%;
+}
+
+.content1 {
+	color: #09255C;
+	font-size: 16px;
+	margin-bottom: 30px;
+	font-family: 'Roboto', sans-serif;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: center;
+}
+.photo {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 2%;
+	padding:4px;
+   	border:4px solid #F7BF3A;
+   	margin-top: 20px;
+   	background-color:transparent;
+   	margin-left: 2%;
+}
+
+.oneline {
+	display:inline;
+}
+
+#nav {
+	text-align: center;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	background-color: #dc9d09;
+	font-family: 'Raleway', sans-serif;
+	display: inline;
+	height: 70px;
+	width:100%;
+	color: white;
+	z-index: 5;
+}
+
+#nav ul {
+	list-style-type: none;
+	font-size: 20px;
+    width: 100%;
+}
+
+#nav li {
+	display: inline-block;
+}
+
+
+#nav a:link, 
+#nav a:visited {
+	display: block;
+	margin-right: 60px;
+	text-decoration: none;
+	color: white;
+}
+
+#nav a:hover {
+	font-style: italic;
+	opacity: 0.8;
+}
+
+
+#login_style:link, #login_style:visited {
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+
+#login_style:hover, #login_style:active {
+	font-style: italic;
+}
+
+a:link, a:visited {
+	color: #dc9d09;
+	text-decoration: none;
+}
+
+a:hover {
+	font-style: italic;
+}
+
+.research_team_links:link, .research_team_links:visited {
+	color:  #4f5b7c;
+	text-decoration: none;
+}
+
+.research_team_links:hover {
+	color:  #4f5b7c;
+	font-style: italic;
+}
+
+#footer {
+	color: #09255C;
+	background-color: #dc9d09 !important;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 60px;
+	display: inline-block;
+	width: 100%;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	opacity: 0.8;
+}
+
+#home, #news, #research, #team, #contact {
+	height: 100%;
+	padding-top: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: #09255C;
+	padding-bottom: 20px;
+	overflow:hidden;
+}
+
+#contact, #footer {
+	background-color: #fef7e7;
+
+}
+#team {
+	background-color:  #fdefce;
+}
+#research {
+	background-color: #fce7b6;
+}
+#news {
+	background-color: #fbdf9d;
+}
+#home {
+	background-color: #fad785;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+}
+
+#research_form, #team_form, #news_form, #news_edit_form, #research_edit_form, #team_edit_form {
+	display: none;
+	margin-left: 5%;
+}
+
+#moreResearch, #remainingProfiles, #admin_news_div, #delete_news_form, #admin_research_div, #delete_research_form,
+#admin_team_div, #delete_team_form{
+	display: none;
+}
+
+#login_form {
+	margin-top: 55px;
+	display: none;
+	padding: 20px;
+	float: right;
+	text-align: center;
+}
+
+#click, #profileClick, #add_research, #add_member, #add_news, #delete, #edit_news, #edit_research, #edit_team, #delete_news,
+#delete_research, #delete_team{
+	background-color: transparent;
+	color: #dc9d09;
+	margin-bottom: 1%;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+}
+
+#click:hover, #profileClick:hover, #add_research:hover, #add_member:hover, #add_news:hover, #edit_news:hover, #edit_research:hover,
+#edit_team:hover, #delete_news:hover, #delete_research:hover, #delete_team:hover {
+	font-style: italic;
+}
+
+#admin_news, #admin_research, #admin_team {
+	background-color: transparent;
+	color: #4f5b7c;
+	margin-bottom: 1%;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 16px;
+}
+
+#admin_news:hover, #admin_research:hover, #admin_team:hover {
+	font-style: italic;
+}
+
+#news_location, #team_location, #contact_location {
+	padding-bottom: 16px;
+}
+
+#research_location { 
+	padding-bottom: 32px;
+	background-color: #fbdf9d;
+
+}
+
+hr{
+    border: 0;
+    height: 0;
+    border-top: 2.5px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 2.5px solid rgba(255, 255, 255, 0.3);
+}
+
+#delete_team_confirmation, #delete_news_confirmation, #delete_research_confirmation {
+	text-align: center;
+}
+
+.delete_confirmation, .edit_alerts {
+	color: #09255C;
+	font-size: 17px;
+	margin-bottom: 15px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+#backupContent{
+	display: none;
+}
+#backupContent_editProfile, #updated_profile_id_input{
+	display: none;
+}

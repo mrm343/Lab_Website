@@ -1,0 +1,44 @@
+.advanced-wrapper {
+  border: 1px solid #ccc;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.advanced-wrapper2, .advanced-wrapper3, .advanced-wrapper4, .advanced-wrapper5,
+.advanced-wrapper6{
+  border: 1px solid #ccc;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.advanced-wrapper, .advanced-wrapper3, .advanced-wrapper4, .advanced-wrapper5,
+.advanced-wrapper6{
+  width: 50%;
+}
+.advanced-wrapper2 {
+  width: 50%;
+}
+.editor-container {
+  height: 400px;
+}
+.editor-container2, .editor-container3, .editor-container4, .editor-container5,
+.editor-container6 {
+  height: 400px;
+}
+.toolbar-container {
+  border-bottom: 1px solid #ccc;
+}
+.toolbar-container2, .toolbar-container3, .toolbar-container4, .toolbar-container5, 
+.toolbar-container6 {
+  border-bottom: 1px solid #ccc;
+}
+.basic-wrapper .toolbar-container, .basic-wrapper .toolbar-container2, 
+.basic-wrapper .toolbar-container3, .basic-wrapper .toolbar-container4,
+.basic-wrapper .toolbar-container5, .basic-wrapper .toolbar-container6 {
+  padding: 8px 14px;
+}
+.basic-wrapper .toolbar-container .ql-active,
+.basic-wrapper .toolbar-container button:hover
+{
+  color: #008000;
+  font-weight: bold;
+}
